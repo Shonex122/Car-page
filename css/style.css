@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", helvetica, sans-serif;
+  font-size: 17px;
+  color: red;
+  line-height: 1.4;
+}
+/* showcase */
+#showcase {
+  width: 100%;
+  margin: auto;
+  background-image: url("../image/jcar.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+}
+
+#showcase p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+#showcase .button {
+  font-size: 1.125em;
+  border: 1px solid red;
+  text-decoration: none;
+  color: red;
+  border-radius: 10px;
+  padding: 14px 34px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+#showcase .button:hover {
+  letter-spacing: 2px;
+  background: black;
+  color: white;
+}
+
+/* section */
+#section-a {
+  padding: 20px;
+  background: red;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+#section-b {
+  padding: 20px;
+  background: maroon;
+  color: white;
+  text-align: center;
+  font-style: oblique;
+}
+
+#section-c {
+  display: flex;
+}
+
+#section-c div {
+  padding: 20px;
+}
+
+#section-c .box-2,
+#section-c .box-4 {
+  background: red;
+  color: white;
+}
+
+/* footer */
+#main-footer {
+  text-align: center;
+  background: maroon;
+  color: white;
+  padding: 20px;
+  font-size: 0.8rem;
+}
